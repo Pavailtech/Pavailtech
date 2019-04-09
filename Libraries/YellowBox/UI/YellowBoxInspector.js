@@ -50,6 +50,14 @@ class YellowBoxInspector extends React.Component<Props, State> {
     const {selectedIndex} = this.state;
 
     const warning = warnings[selectedIndex];
+    
+    // There is a bug on the iOS simulator that causes very long text to
+    // render incorrectly. As a workaround only display the first 13k
+    // characters. The full warning can be viewed using remote debugging.
+    if (Platform.OS === 'ios' && warning.message.content.length > 13000) {
+      warning.message.content =
+        warning.message.content.substring(0, 13000) + '...';
+    }
 
     return (
       <View style={styles.root}>
