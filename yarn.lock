@@ -3855,10 +3855,10 @@ has@^1.0.1, has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hermes-engine@~0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/hermes-engine/-/hermes-engine-0.3.0.tgz#c03ded211102eef775045a5f55e286783db8ad48"
-  integrity sha512-Xl21n/FohkoeQyz/9AeisoePhXaLvXRyT41xkYHOrqoNr+pkLUGc1xIo486ctIxSp5SN4BkN6T3YFWOdD0ntaQ==
+hermes-engine@~0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/hermes-engine/-/hermes-engine-0.11.0.tgz#bb224730d230a02a5af02c4e090d1f52d57dd3db"
+  integrity sha512-7aMUlZja2IyLYAcZ69NBnwJAR5ZOYlSllj0oMpx08a8HzxHOys0eKCzfphrf6D0vX1JGO1QQvVsQKe6TkYherw==
 
 home-or-tmp@^3.0.0:
   version "3.0.0"
@@ -6082,7 +6082,7 @@ p-finally@^1.0.0:
 
 p-is-promise@^1.1.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
+  resolved "https://registry.npmjs.org/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
   integrity sha1-nJRWmJ6fZYgBewQ01WCXZ1w9oF4=
 
 p-limit@^1.1.0:
